@@ -2,17 +2,18 @@ extends ../../_component/layout/template
 
 block cool-config
     -
-        var myTitle = 'Learn to code HTML Attributes for beginners';
-        var myDescription = 'Attributes provide additional information about HTML';
+        var myTitle = 'Rossi the Doctor';
+        var myDescription = 'An element usually consists of a start tag and end tag, with the content insterted in between';
         var landingPage = 'HTML';
-        var activeLink = 'html/attributes';
+        var activeLink = 'html/elements';
 
 block awesome-content
     h1=myTitle
     p=myDescription
-    h2 Example of html attributes
+    h2 Example of html elements
+    h1 code code code
 
     p(title="This is a tooltip :D") This paragraph has a tooltip.
-    a(href="https://www.youtube.com/watch?v=UfHWm6xVQdI") Just for cackes.
+    a(href="https://www.youtube.com/watch?v=CLpb6k6afIM") Click the link to go back in time.
     P The next image is a random image
-    img(src="my-picture", width="200", height="120", alt="This text shows")
+    img(src=`${baseUrl}asset/image/rossi.jpg`, width="255", height="190", alt="This text shows")

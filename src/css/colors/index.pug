@@ -1,0 +1,31 @@
+extends ../../_component/layout/template
+
+block cool-config
+    -
+        var myTitle = 'Learn to code CSS Colors for beginners';
+        var myDescription = ' I like colors, do you ?';
+        var landingPage = 'CSS';
+        var activeLink = '/css/colors';
+
+block awesome-content
+    h1=myTitle
+    p=myDescription
+    h2 CSS Colors
+
+    table(width="80%")
+        tr
+            td(bgcolor="green", width="30%")
+            td green
+        tr
+            td(bgcolor="red", width="30%")
+            td red
+        tr
+            td(bgcolor="blue", width="10%")
+            td blue
+        tr
+            td(bgcolor="pink", width="30%")
+            td pink
+        tr
+            td(bgcolor="black", width="30%")
+            td green haha
+

@@ -1,0 +1,22 @@
+extends ../../_component/layout/template
+
+block cool-config
+    -
+        var myTitle = 'se schimba';
+        var myDescription = 'search for examples and change it ...';
+        var landingPage = 'CSS';
+        var activeLink = '/css/backgrounds';
+
+block awesome-content
+    h1=myTitle
+    p=myDescription
+    h2 CSS Colors
+    p  Colors is CSS are most often specified by:
+    ul
+        li a valid color name
+        li an RGB value
+        li a HEX value
+    h2 CSS Backgorunds 
+    p  The CSS backgrounds properties are used to define the background efects for elements
+    h2 CSS Borders
+    p The CSS border properties allow you to specify the style, width and color of an element.
