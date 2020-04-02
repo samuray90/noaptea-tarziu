@@ -137,5 +137,7 @@
     "pngquant-bin": "5.0.2",
     "standard-version": "7.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "pug": "^2.0.4"
+  }
 }
